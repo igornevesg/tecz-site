@@ -4567,10 +4567,7 @@ h1,
 .h1 {
     font-size: 2vw;
     line-height: 1.31818182em;
-    background: rgb(9, 9, 121);
-    background: linear-gradient(135deg, rgba(9, 9, 121, 1) 0%, rgba(0, 194, 255, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgb(9, 9, 121);
     padding: 8px 0px;
 }
 
@@ -4584,10 +4581,7 @@ h2,
     font-size: 2.35714286em;
     line-height: 1.36363636em;
     font-weight: 500;
-    background: rgb(9, 9, 121);
-    background: linear-gradient(135deg, rgba(9, 9, 121, 1) 0%, rgba(0, 194, 255, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgb(9, 9, 121);
     padding: 8px 0px;
 }
 
@@ -4601,10 +4595,7 @@ h3,
     font-size: 2.35714286em;
     line-height: 1.36363636em;
     font-weight: 700;
-    background: rgb(9, 9, 121);
-    background: linear-gradient(135deg, rgba(9, 9, 121, 1) 0%, rgba(0, 194, 255, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgb(9, 9, 121);
     padding: 8px 0px;
 }
 
@@ -4618,10 +4609,7 @@ h4,
     font-size: 2.35714286em;
     line-height: 1.36363636em;
     font-weight: 700;
-    background: rgb(9, 9, 121);
-    background: linear-gradient(135deg, rgba(9, 9, 121, 1) 0%, rgba(0, 194, 255, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgb(9, 9, 121);
     padding: 8px 0px;
 }
 
@@ -4636,10 +4624,7 @@ h5,
     line-height: 1.36363636em;
     font-weight: 700;
     text-align: center;
-    background: rgb(9, 9, 121);
-    background: linear-gradient(135deg, rgba(9, 9, 121, 1) 0%, rgba(0, 194, 255, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgb(9, 9, 121);
     padding: 8px 0px;
 }
 
@@ -4698,7 +4683,7 @@ p {
     text-transform: none;
     line-height: 1.7;
     letter-spacing: 0;
-    color: #777777;
+    color: #777777 !important;
     font-family: "Poppins", sans-serif;
 }
 
@@ -10298,7 +10283,7 @@ Helpers
 .text-light label,
 .text-light div:not(.alert),
 .text-light span:not(.btn-label) {
-    color: #fff !important;
+    color: rgb(9, 9, 121);
 }
 
 .text-dark,
@@ -10318,7 +10303,7 @@ Helpers
 .text-dark label,
 .text-dark div:not(.alert),
 .text-dark span:not(.btn-label) {
-    color: #111 !important;
+    color: rgb(9, 9, 121);
 }
 
 .text-grey,
@@ -15546,10 +15531,7 @@ div.icon-box:before {
     text-align: center;
     line-height: 66px;
     border-radius: 50%;
-    background: rgb(9, 9, 121);
-    background: linear-gradient(135deg, rgba(9, 9, 121, 1) 0%, rgba(0, 194, 255, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgb(9, 9, 121);
 }
 
 .icon-box .icon a,
@@ -15910,7 +15892,7 @@ div.icon-box:before {
 
 .icon-box.clean .icon i {
     background-color: none;
-    color: #333;
+    color: rgb(9, 9, 121);
     font-size: 50px;
 }
 
