@@ -119,6 +119,10 @@ section {
     background-color: #ffffff;
 }
 
+.tp-caption {
+    color: red;
+}
+
 @media (max-width: 768px) {
     section {
         padding: 40px 0;
@@ -4567,7 +4571,7 @@ h1,
 .h1 {
     font-size: 2vw;
     line-height: 1.31818182em;
-    color: rgb(9, 9, 121);
+    color: rgba(41, 106, 245, 1.00);
     padding: 8px 0px;
 }
 
@@ -4580,8 +4584,8 @@ h2,
 .h2 {
     font-size: 2.35714286em;
     line-height: 1.36363636em;
-    font-weight: 500;
-    color: rgb(9, 9, 121);
+    font-weight: 700;
+    color: rgba(41, 106, 245, 1.00);
     padding: 8px 0px;
 }
 
@@ -4595,7 +4599,7 @@ h3,
     font-size: 2.35714286em;
     line-height: 1.36363636em;
     font-weight: 700;
-    color: rgb(9, 9, 121);
+    color: rgba(41, 106, 245, 1.00);
     padding: 8px 0px;
 }
 
@@ -4609,7 +4613,7 @@ h4,
     font-size: 2.35714286em;
     line-height: 1.36363636em;
     font-weight: 700;
-    color: rgb(9, 9, 121);
+    color: rgba(41, 106, 245, 1.00);
     padding: 8px 0px;
 }
 
@@ -4624,7 +4628,7 @@ h5,
     line-height: 1.36363636em;
     font-weight: 700;
     text-align: center;
-    color: rgb(9, 9, 121);
+    color: rgba(41, 106, 245, 1.00);
     padding: 8px 0px;
 }
 
@@ -10283,7 +10287,7 @@ Helpers
 .text-light label,
 .text-light div:not(.alert),
 .text-light span:not(.btn-label) {
-    color: rgb(9, 9, 121);
+    color: rgba(41, 106, 245, 1.00);
 }
 
 .text-dark,
@@ -10303,7 +10307,7 @@ Helpers
 .text-dark label,
 .text-dark div:not(.alert),
 .text-dark span:not(.btn-label) {
-    color: rgb(9, 9, 121);
+    color: rgba(41, 106, 245, 1.00);
 }
 
 .text-grey,
@@ -15531,7 +15535,7 @@ div.icon-box:before {
     text-align: center;
     line-height: 66px;
     border-radius: 50%;
-    color: rgb(9, 9, 121);
+    color: rgba(41, 106, 245, 1.00);
 }
 
 .icon-box .icon a,
@@ -15892,7 +15896,7 @@ div.icon-box:before {
 
 .icon-box.clean .icon i {
     background-color: none;
-    color: rgb(9, 9, 121);
+    color: rgba(41, 106, 245, 1.00);
     font-size: 50px;
 }
 
@@ -20797,4 +20801,131 @@ body[data-bg-image] {
 
 .card .card-body .wizard {
     padding: 1rem;
+}
+
+
+/* Textos página principal*/
+
+@media (max-width: 1280px) {
+    .p1 {
+        white-space: initial !important;
+        word-break: normal !important;
+        margin: 120px !important;
+        margin-top: 190px !important;
+        width: 200%;
+        text-align: center;
+        line-height: 130% !important;
+        font-size: 24px !important;
+    }
+    .botao {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .p1 {
+        white-space: initial !important;
+        word-break: normal !important;
+        margin: 120px !important;
+        margin-top: 190px !important;
+        width: 200%;
+        text-align: center;
+        line-height: 130% !important;
+        font-size: 24px !important;
+    }
+    .botao {
+        margin-top: 130px;
+    }
+}
+
+@media (max-width: 800px) {
+    .text-lg,
+    .text-lg span {
+        font-size: 60px !important;
+        line-height: 60px !important;
+    }
+    .notebook {
+        display: none;
+    }
+    .p1 {
+        font-size: 20px !important;
+        width: 150%;
+    }
+}
+
+@media (max-width: 600px) {
+    .text-lg,
+    .text-lg span {
+        font-size: 50px !important;
+        line-height: 60px !important;
+    }
+    .p1 {
+        font-size: 18px !important;
+        width: 150%;
+    }
+}
+
+@media (max-width: 500px) {
+    .text-lg,
+    .text-lg span {
+        font-size: 40px !important;
+        line-height: 60px !important;
+    }
+    .p1 {
+        font-size: 16px !important;
+        width: 100%;
+    }
+    .botao {
+        margin-top: 130px;
+        width: 80%;
+        height: 30%;
+    }
+    .text-button {
+        position: relative;
+        left: -15px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .botao {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 420px) {
+    .text-lg,
+    .text-lg span {
+        font-size: 40px !important;
+        line-height: 50px !important;
+    }
+    .p1 {
+        font-size: 12px !important;
+    }
+    .botao {
+        margin-top: 70px !important;
+        width: 80%;
+        height: 80% !important;
+        font-size: 12px !important;
+        text-align: center !important;
+        padding: 0px 30px !important;
+    }
+    .text-button {
+        position: relative;
+        left: -10px !important;
+    }
+}
+
+@media (max-width: 300px) {
+    .botao {
+        margin-top: 100px !important;
+        width: 80%;
+        height: 80% !important;
+        font-size: 12px !important;
+        text-align: center !important;
+        padding: 0px 30px !important;
+    }
+}
+
+.white-text {
+    color: white !important;
 }
