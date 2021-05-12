@@ -1671,7 +1671,8 @@ Topbar
 #header.dark .header-inner #logo a [class*="logo-"],
 #header.dark #header-wrap #logo a>img,
 #header.dark #header-wrap #logo a [class*="logo-"] {
-    display: none;
+    fill: white;
+
 }
 
 .dark #header .header-inner #logo a .logo-dark,
