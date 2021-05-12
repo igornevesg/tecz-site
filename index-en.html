@@ -106,19 +106,26 @@
         <!--END: HEADER-->
 
         <!-- SECTION IMAGE FULLSCREEN -->
-        <section id="particle-dots" class="fullscreen background-image" style="background-color:#f4f4f4">
-            <div class="container">
-                <div class="container-fullscreen text-center">
-                    <div class="text-middle">
-                        <h1 data-animate="fadeInUp" data-animate-delay="700" class="text-lg m-b-0" id="tit_h1">Develop your digital solution with us!</h1>
-                        <br>
+        <section class="grid-item classic-style mb-5 ">
+            <div class="grid-item-wrap">
+                <div class="fullscreen">
+                    <div class="bg-overlay" data-style="4"></div>
+                    <div class="shape-divider" data-style="12" data-height="220"></div>
+                    <div class="container">
+                        <div class="container-fullscreen text-center">
+                            <div class="text-middle">
 
-                        <p data-animate="fadeInUp" data-animate-delay="1200">
-                            We deliver technological solutions with efficiency and agility, helping your company to stand out in the digital world.</p>
-                        <div data-animate="fadeInUp" data-animate-delay="1100">
-                            <a class="btn btn-dark scroll-to" href="#section-services"><span>Know More</span></a>
+                                <h1 data-animate="fadeIn" data-animate-delay="500" class="text-lg white-text "><span class="text-rotator" data-animation="fadeIn" data-speed="4000">WEBSITES, APPLICATIONS, DIGITAL SOLUTIONS</span> </h1>
+                                <p class="white-text p2" data-animate="fadeInUp" data-animate-delay="700">We deliver technological solutions with efficiency and agility, helping your company to stand out in the digital world.</p>
+                                <div data-animate="fadeInUp" data-animate-delay="1100">
+                                    <a class="btn btn-light scroll-to" href="#section-about"><span>KNOW MORE</span></a>
+                                </div>
+                                <div class="scrolldown-animation" id="scroll-down">
+                                    <a class="scroll-to" href="#easy-fast"><img src="images/scrolldown.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -152,8 +159,8 @@
                 <div class="seperator seperator-small"></div>
                 <hr class="space">
                 <div class="row">
-                    <div class="col-lg-4" data-animate="fadeInUp" data-animate-delay="0" id="centro">
-                        <div class="icon-box clean small center">
+                    <div class="col-lg-4" data-animate="fadeInUp" data-animate-delay="0">
+                        <div class="icon-box effect medium center">
                             <div class="icon">
                                 <a href="#"><i class="fa fa-users"></i></a>
                             </div>
@@ -161,8 +168,8 @@
                             <p>Branding | Marketing | Logo Creating | Design</p>
                         </div>
                     </div>
-                    <div class="col-lg-4" data-animate="fadeInUp" data-animate-delay="200" id="centro">
-                        <div class="icon-box clean small center">
+                    <div class="col-lg-4" data-animate="fadeInUp" data-animate-delay="200">
+                        <div class="icon-box effect medium center">
                             <div class="icon">
                                 <a href="#"><i class="fa fa-desktop"></i></a>
                             </div>
@@ -170,8 +177,8 @@
                             <p>Web Development | Web Systems | App Development | SAAS </p>
                         </div>
                     </div>
-                    <div class="col-lg-4" data-animate="fadeInUp" data-animate-delay="400" id="centro">
-                        <div class="icon-box clean small center">
+                    <div class="col-lg-4" data-animate="fadeInUp" data-animate-delay="400">
+                        <div class="icon-box effect medium center">
                             <div class="icon">
                                 <a href="#"><i class="fa fa-cloud"></i></a>
                             </div>
@@ -180,8 +187,8 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4" data-animate="fadeInUp" data-animate-delay="600" id="centro">
-                        <div class="icon-box clean small center">
+                    <div class="col-lg-4" data-animate="fadeInUp" data-animate-delay="600">
+                        <div class="icon-box effect medium center">
                             <div class="icon">
                                 <a href="#"><i class="far fa-lightbulb"></i></a>
                             </div>
@@ -410,15 +417,18 @@
 
         <div class="seperator"></div>
 
-        <!-- PARALLAX -->
-        <section class="p-t-150 p-b-150" data-bg-parallax="minimal/images/parallax/1.jpg">
+        <!-- Particle 1 -->
+        <section class="background-colored p-t-150 p-b-150">
+            <div id="particles-dots" class="particles"></div>
             <div class="container">
-                <p class="lead text-center">
-                    We believe in the power that everyone has to make a difference in the world, and we maximize their digital possibilities with efficient practices.
-                </p>
+                <div class="container">
+                    <p class="lead text-center white-text">
+                        We believe in the power that everyone has to make a difference in the world, and we maximize their digital possibilities with efficient practices.
+                    </p>
+                </div>
             </div>
         </section>
-        <!-- PARALLAX -->
+        <!-- end: Particle 1 -->
 
         <!-- Footer -->
         <footer id="footer">
@@ -492,6 +502,11 @@
 
         <!--functions-->
         <script src="js/functions.js"></script>
+
+        <!-- Partical js base file  -->
+        <script src="plugins/particles/particles.js" type="text/javascript"></script>
+        <!--Particles-->
+        <script src="plugins/particles/particles-dots.js" type="text/javascript"></script>
 
 </body>
 

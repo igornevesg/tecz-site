@@ -4571,7 +4571,7 @@ h1,
 .h1 {
     font-size: 2vw;
     line-height: 1.31818182em;
-    color: rgba(41, 106, 245, 1.00);
+    color: #1008AC;
     padding: 8px 0px;
 }
 
@@ -4585,7 +4585,7 @@ h2,
     font-size: 2.35714286em;
     line-height: 1.36363636em;
     font-weight: 700;
-    color: rgba(41, 106, 245, 1.00);
+    color: #1008AC;
     padding: 8px 0px;
 }
 
@@ -4599,7 +4599,7 @@ h3,
     font-size: 2.35714286em;
     line-height: 1.36363636em;
     font-weight: 700;
-    color: rgba(41, 106, 245, 1.00);
+    color: #1008AC;
     padding: 8px 0px;
 }
 
@@ -4613,7 +4613,7 @@ h4,
     font-size: 2.35714286em;
     line-height: 1.36363636em;
     font-weight: 700;
-    color: rgba(41, 106, 245, 1.00);
+    color: #1008AC;
     padding: 8px 0px;
 }
 
@@ -4628,7 +4628,7 @@ h5,
     line-height: 1.36363636em;
     font-weight: 700;
     text-align: center;
-    color: rgba(41, 106, 245, 1.00);
+    color: #1008AC;
     padding: 8px 0px;
 }
 
@@ -5166,7 +5166,6 @@ Portfolio
     float: left;
     height: auto;
     padding: 0 0 20px 0;
-    cursor: pointer;
     /*hover state*/
     /*Portfolio Effects*/
     /*Styles*/
@@ -7773,6 +7772,7 @@ Portfolio
 
 #footer .footer-content {
     padding: 60px 0 40px 0;
+    background-color: white;
 }
 
 #footer .widget .widget-title,
@@ -7793,7 +7793,7 @@ Portfolio
 #footer .copyright-content {
     min-height: 80px;
     padding: 30px 0;
-    background-color: #eff1f4;
+    background-color: white;
     font-size: 13px;
 }
 
@@ -8473,7 +8473,8 @@ body.breakpoint-sm .col-3 .flickr-widget img .widget-instagram img {
 }
 
 .background-colored {
-    background-color: #2250fc;
+    background: linear-gradient(140deg, rgba(10, 10, 167, 0.979) 0%, rgba(0, 175, 239, 0.71) 60%);
+    opacity: 1;
 }
 
 #particles-dots {
@@ -8482,7 +8483,8 @@ body.breakpoint-sm .col-3 .flickr-widget img .widget-instagram img {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: transparent;
+    background: linear-gradient(140deg, rgba(10, 10, 167, 0.979) 0%, rgba(0, 175, 239, 0.71) 60%);
+    opacity: .9;
     z-index: -1;
 }
 
@@ -10287,7 +10289,7 @@ Helpers
 .text-light label,
 .text-light div:not(.alert),
 .text-light span:not(.btn-label) {
-    color: rgba(41, 106, 245, 1.00);
+    color: #1008AC;
 }
 
 .text-dark,
@@ -10307,7 +10309,7 @@ Helpers
 .text-dark label,
 .text-dark div:not(.alert),
 .text-dark span:not(.btn-label) {
-    color: rgba(41, 106, 245, 1.00);
+    color: #1008AC;
 }
 
 .text-grey,
@@ -15535,7 +15537,7 @@ div.icon-box:before {
     text-align: center;
     line-height: 66px;
     border-radius: 50%;
-    color: rgba(41, 106, 245, 1.00);
+    color: #1008AC !important;
 }
 
 .icon-box .icon a,
@@ -15588,7 +15590,7 @@ div.icon-box:before {
     top: -4px;
     left: -4px;
     padding: 4px;
-    box-shadow: 0 0 0 3px #333;
+    box-shadow: 0 0 0 3px #007bff;
     -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
     -webkit-transform: scale(0.8);
     -moz-transition: -moz-transform 0.2s, opacity 0.2s;
@@ -15896,7 +15898,7 @@ div.icon-box:before {
 
 .icon-box.clean .icon i {
     background-color: none;
-    color: rgba(41, 106, 245, 1.00);
+    color: #1008AC;
     font-size: 50px;
 }
 
@@ -20264,7 +20266,7 @@ video {
 }
 
 .bg-overlay[data-style="4"] {
-    background: linear-gradient(140deg, rgba(236, 0, 83, 0.979) 0%, rgba(231, 46, 0, 0.71) 100%);
+    background: linear-gradient(140deg, rgba(10, 10, 167, 0.979) 5%, rgba(0, 175, 239, 0.71) 60%);
     opacity: .9;
 }
 
@@ -20928,4 +20930,8 @@ body[data-bg-image] {
 
 .white-text {
     color: white !important;
+}
+
+.p2 {
+    margin-top: -10px;
 }
